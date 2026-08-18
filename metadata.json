@@ -1,0 +1,6 @@
+{
+  "name": "Google AI Studio",
+  "description": "Crea, entrena y gestiona tus propias inteligencias artificiales personalizadas conectadas a la red de Google AI con Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
