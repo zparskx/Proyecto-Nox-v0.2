@@ -1,5 +1,0 @@
-mkdir mi-carpeta
-touch mi-carpeta/.gitkeep
-git add mi-carpeta/.gitkeep
-git commit -m "Añadir carpeta"
-git push origin main   
