@@ -37,3 +37,12 @@ jobs:
           name: Nox-debug-apk
           path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+
+sourceSets {
+    getByName("main") {
+        manifest.srcFile(".src/.Main/androidManifest.xml")
+        java.setSrcDirs(listOf(".src/.Main/.java"))
+        res.setSrcDirs(listOf(".src/.Main/.res"))
+        assets.setSrcDirs(listOf(".src/.Main/.assets"))
+    }
+}
